@@ -1,0 +1,132 @@
+.wrap {
+  background-color: RGBA(232, 52, 78, 0.2);
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.banner {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  background-image: url("bimasakti.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border: gray 1px solid;
+  border-radius: 10px;
+}
+
+span.example {
+  color: gray;
+  font-size: 14px;
+}
+
+.btn-sparta {
+  color: white;
+  background-color: #e8344e;
+  border: 1px solid #e8344e;
+}
+
+.btn-sparta-outline {
+  color: #e8344e;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #e8344e;
+}
+
+.search-box {
+  width: 70%;
+  margin: 5px auto;
+  max-width: 700px;
+}
+
+.table {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  table-layout: fixed;
+}
+
+.table th {
+  border-top-style: none;
+}
+
+td {
+  background-color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+td > a,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+}
+
+thead:first-child tr:first-child th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+thead:first-child tr:first-child th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+thead:last-child tr:last-child th:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+thead:last-child tr:last-child th:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+tr.highlight > tf {
+  background-color: orange;
+  color: red;
+}
+
+tr.highlight a {
+  color: blue;
+}
+
+/* mystyle.css */
+.error-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #FF0000;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
